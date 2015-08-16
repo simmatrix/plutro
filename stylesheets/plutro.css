@@ -1,0 +1,142 @@
+/* Overwrite Bootstrap */
+	.row {
+		margin-left: 0px !important;
+		margin-right: 0px !important;
+	}
+	.btn.active.focus,
+	.btn.active:focus,
+	.btn.focus,
+	.btn.focus:active,
+	.btn:active:focus,
+	.btn:focus {
+		outline: none !important;
+	}
+/* Overwrite Bootstrap End */
+
+/* Google Search Bar */
+	.gsc-results-wrapper-overlay {
+		left :auto !important;
+	}
+	.gs-title {
+		text-align: left !important;
+	}
+	.gsc-thumbnail-inside,
+	.gsc-url-top {
+		padding-left: 0px !important;
+	}
+	.gsc-selected-option-container {
+		min-width: 100px !important;
+	}
+	.gcsc-branding,
+	.gsc-above-wrapper-area,
+	.gsib_b {
+		display: none;
+	}
+	.gsc-input {
+		background: none !important;
+		padding: inherit !important;
+	}
+	.gsc-input-box {
+		height:40px !important;
+	}
+	.gsc-search-button {
+		height:40px !important;
+		border:none !important;
+	}
+	.cse .gsc-search-button input.gsc-search-button-v2, input.gsc-search-button-v2 {
+		width: auto !important;
+		padding: 15px !important;
+		margin-top: auto !important;
+	}
+/* Google Search Bar End */
+
+/* Google Search Bar Sidebar */
+	@media (max-width: 1100px) {
+		.gsc-results-wrapper-overlay.gsc-results-wrapper-visible {
+			width: 95%;
+		}
+	}
+/* Google Search Bar Sidebar End */
+
+
+/* Color Buttons */
+	.color-button {
+		border: none !important;
+		padding: 65px !important;
+		color: #ffffff;
+	}
+	.color-button > span {
+		display: block;
+		width: 80px;
+	}
+	.color-button:hover {
+		box-shadow: inset 0 0 0 5px #fff;
+	}
+	.btn-red-ff6961 {
+		background-color: #ff6961;
+	}
+	.btn-green-77dd77 {
+		background-color: #77dd77;
+	}
+	.btn-blue-779ecb {
+		background-color: #779ecb;
+	}
+	.btn-brown-f1a55a {
+		background-color: #f1a55a;
+	}
+/* Color Buttons End */
+
+.voffset { margin-top: 2px; }
+.voffset1 { margin-top: 5px; }
+.voffset2 { margin-top: 10px; }
+.voffset3 { margin-top: 15px; }
+.voffset4 { margin-top: 30px; }
+.voffset5 { margin-top: 40px; }
+.voffset6 { margin-top: 60px; }
+.voffset7 { margin-top: 80px; }
+.voffset8 { margin-top: 100px; }
+.voffset9 { margin-top: 150px; }
+
+.body {
+    background: #f6f6f6;
+}
+
+.main-search-container {
+    margin-top: 20%;
+}
+
+.plutro-logo {
+    width:500px;
+    height:100%;
+}
+
+.text-plutro {
+	color:#8a8a8a;
+}
+
+.mobile-menu {
+	margin-top: 10%;
+}
+@media (max-width: 990px) {
+	.mobile-menu {
+		margin-top: 15%;
+	}
+}
+@media (max-width: 700px) {
+	.mobile-menu {
+		margin-top: 20%;
+	}
+}
+@media (max-width: 500px) {
+	.mobile-menu {
+		margin-top: 30%;
+	}
+}
+@media (min-width: 1100px) {
+	.sidebar-search {
+		margin-left: -14px;
+	}
+}
+.unix-reader-result {
+	margin-bottom: 10%;
+}
